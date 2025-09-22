@@ -6,8 +6,19 @@ You will be given an access to an aws account for the VPN questions
 Your tasks:
 
 ### 1. VPN
-- 
-- 
+- Create a VPN Tunnel in AWS and connect to the following configuration
+####  Conn
+        PeerIP=146.190.120.240
+        Host=10.48.0.6/32
+####   phase 1 (IKE)
+       keyexchange=ikev2
+       ike=aes256-sha1-modp2048
+       ikelifetime=3600s
+####   phase 2 (ESP)
+       esp=aes256-sha1
+       rekey=yes
+       keylife=3600s
+
 
 ### 2. Docker
 - Write a `Dockerfile` that runs this app on port 5000.
