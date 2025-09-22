@@ -16,7 +16,6 @@ Your tasks:
        ikelifetime=3600s
 ####   phase 2 (ESP)
        esp=aes256-sha1
-       rekey=yes
        keylife=3600s
 
 
