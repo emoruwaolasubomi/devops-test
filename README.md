@@ -1,7 +1,11 @@
 # DevOps Mini Test
 
 Welcome 👋 This repo is a simple Python Flask app with one API endpoint.
-You will be given an access to an aws account for the VPN questions
+- You will be given an access to an aws account for the VPN questions
+- You are free to start with any number.
+- You are free to ask any questions for clarity
+- Kindly delete all resources created for task 1 after the test.
+- the test should be done in eu-west-1
 
 Your tasks:
 
