@@ -5,7 +5,7 @@ Welcome 👋 This repo is a simple Python Flask app with one API endpoint.
 - You are free to start with any number.
 - You are free to ask any questions for clarity
 - Kindly delete all resources created for task 1 after the test.
-- the test should be done in eu-west-1
+- The task 1 should be done in eu-west-1 region
 
 Your tasks:
 
